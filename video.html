@@ -8,10 +8,32 @@
 	<head>
 		<title>Video Editing</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
 	</head>
+	
+	<!-- Modal's -->
+	<div class="modal" id="Video1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title">A Phatic Interview</h2>
+				</div>
+				<div class="modal-body"></div>
+				<iframe width="598" height="336" src="https://www.youtube-nocookie.com/embed/Ne1VCSYJtBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="modal-footer">
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -25,7 +47,7 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="index.html">This is William Lyons</a></li>
+							<li><a href="index.html">Home</a></li>
 							<li class="active"><a href="video.html">Video Editing</a></li>
 							<li><a href="sound.html">Sound Design</a></li>
 							<li><a href="about.html">About Me</a></li>
@@ -39,21 +61,30 @@
 				<!-- Main -->
 					<div id="main">
 
+		
+
+
 	<!-- Posts -->
+
+
 	<section class="posts">
 		<article>
 			<header>
 				<h2><a href="https://www.youtube.com/watch?v=Ne1VCSYJtBc">A Phatic Interview</a></h2>
 			</header>
-			<iframe width="598" height="334" src="https://www.youtube.com/embed/Ne1VCSYJtBc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<a href="#" data-toggle="modal" data-target="#Video1">
+				<img alt="Qries" src="images/A Phatic Interview.png"
+				width="598" height="334">
+			</a>
+			<b>Interview</b>
 			<p>A Phatic expression is an expression used in a social interaction that has no informational purpose, it only serves to get social gears moving. For example “What’s Up?”, “You Are?”, and “You alright?” .</p>
-
 		</article>
 		<article>
 			<header>
 				<h2><a href="https://www.youtube.com/watch?v=ieNZ8S3k78U&t=5s">New Normal</a></h2>
 			</header>
-			<iframe width="598" height="334" src="https://www.youtube.com/embed/ieNZ8S3k78U?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="596" height="334" src="https://www.youtube.com/embed/ieNZ8S3k78U?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<b>Short Film</b>
 			<p>Two hundred thousand people had just died and no one had even bat an eye. It was emotional and mental exhaustion in carnet. That was a feeling I wanted to try and capture here.</p>
 	
 		</article>
@@ -62,6 +93,7 @@
 				<h2><a href="https://www.youtube.com/watch?v=WeTkMvuajCM">An Editors Perspective</a></h2>
 			</header>
 			<iframe width="598" height="334" src="https://www.youtube.com/embed/WeTkMvuajCM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<b>Commentary</b>
 			<p>Beneath the borderline serialism is a very important message, one of resourcefullnes mixed with creativity, a message of an editor.</p>
 
 		</article>
@@ -70,6 +102,7 @@
 				<h2><a href="https://www.youtube.com/watch?v=Zp-odk7998k&t=1s">Morstera</a></h2>
 			</header>
 			<iframe width="598" height="334" src="https://www.youtube.com/embed/Zp-odk7998k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<b>Found Footage Compilation</b>
 			<p>A world in which devintiy has long since vanished and those who remain must pick up the pieces. A trailer based around the fictional tabletop world of Morstera.</p>
 
 		</article>
@@ -78,6 +111,7 @@
 				<h2><a href="https://www.youtube.com/watch?v=WFhPzJ9FmL0">Double Think</a></h2>
 			</header>
 			<iframe width="598" height="334" src="https://www.youtube.com/embed/WFhPzJ9FmL0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<b>Found Footage Compilation</b>
 			<p>Doublethink is the power of holding two contradictory beliefs in one's mind simultaneously and accepting both of them.</p>
 
 		</article>
@@ -98,27 +132,6 @@
 
 					<!-- Footer -->
 						<footer id="footer">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="3"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" /></li>
-									</ul>
-								</form>
-							</section>
 							<section class="split contact">
 								<section>
 									<h3>Phone</h3>
@@ -136,15 +149,18 @@
 									</ul>
 								</section>
 							</section>
+
 						</footer>
 		
 					<!-- Copyright -->
 						<div id="copyright">
-							<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+							<ul><li>&copy; William Lyons</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 						</div>
 		
 				</div>
 		
+
+			
 			<!-- Scripts -->
 				<script src="assets/js/jquery.min.js"></script>
 				<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -155,4 +171,7 @@
 				<script src="assets/js/main.js"></script>
 		
 		</body>
+
+		</div>
+		
 		</html>
