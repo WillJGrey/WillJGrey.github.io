@@ -130,6 +130,7 @@ input, select, textarea {
 
 			html {
 				font-size: 11pt;
+				text-align: right;
 			}
 
 		}
@@ -846,21 +847,6 @@ input, select, textarea {
 		right: 0;
 	}
 
-		#main .toggle {
-			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-			position: absolute;
-			top: 0;
-			width: 4em;
-			height: 4em;
-			background-image: url("images/close-small-alt.svg");
-			background-repeat: no-repeat;
-			background-size: 32px 32px;
-			cursor: pointer;
-			display: none;
-			z-index: 1;
-			background-position: 0.5em 0.5em;
-			left: 0;
-		}
 
 		body.fullscreen #main {
 			visibility: hidden;
@@ -1357,7 +1343,7 @@ input, select, textarea {
     padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
     /* padding-bottom: 62.5%; - 16:10 aspect ratio */
     /* padding-bottom: 75%; - 4:3 aspect ratio */
-    padding-top: 30px;
+    padding-top: 10px;
     height: 0;
 }
 
@@ -1376,19 +1362,21 @@ input, select, textarea {
 }
 
 .float-parent-element { 
-    width: 50%; 
+    width: 50%;
 } 
 .float-child-element { 
     float: left; 
-    width: 100%; 
+    width: 100%;
 } 
 .red { 
     margin-left: 0%; 
     height: 10%; 
+	text-align: left;
 } 
 .yellow { 
     margin-left: 1%; 
-	padding top: 0;
+	padding top: 0%;
+	text-align: left;
 }
 
 .inline-icon {
