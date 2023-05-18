@@ -1392,3 +1392,9 @@ input, select, textarea {
 		vertical-align: middle;
 	    font-size: 35px !important;
 }
+
+.collumn {
+	column-count: 1;
+	column-gap: 0%;
+	column-width: 50%;
+}
