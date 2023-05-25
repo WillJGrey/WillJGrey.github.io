@@ -1400,3 +1400,9 @@ input, select, textarea {
 	column-gap: 0%;
 	column-width: 50%;
 }
+
+@media (max-width: 768px) {
+  .float-parent-element { 
+    width: 100%; !important
+  }
+}
