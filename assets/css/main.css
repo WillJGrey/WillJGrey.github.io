@@ -133,7 +133,7 @@ input, select, textarea {
 
 			html {
 				font-size: 11pt;
-				text-align: right;
+				text-align: center;
 			}
 
 		}
@@ -894,7 +894,7 @@ input, select, textarea {
 				transition: opacity 0.5s ease, visibility 0.5s;
 				width: 100%;
 				background: #fff;
-				text-align: center;
+				text-align: center !important;
 			}
 
 				body.is-preload-1 #main {
@@ -1404,21 +1404,22 @@ input, select, textarea {
 
 @media (max-width: 768px) {
   .float-parent-element { 
-    width: 100%; !important
+    width: 100% !important;
   }
   .red {
-		justify-content: center;
-		text-align: center;
+		justify-content: center !important;
+		text-align: center !important;
   }
 
   .yellow {
-		justify-content: center;
-		text-align: center; 
+		justify-content: center !important;
+		text-align: center !important;
   }
   .p {
-		justify-content: center; !important
-		text-align: center; !important
-		padding: 10px; !important
-		width: 100px; !important
+		justify-content: center !important;
+		text-align: center !important;
+		horizontal-align: center !important;
+
+
   }
 }
