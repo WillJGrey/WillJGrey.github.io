@@ -1415,6 +1415,7 @@ input, select, textarea {
 		text-align: center; 
   }
   .p {
+		justify-content: center;
 		text-align: center; 
   }
 }
