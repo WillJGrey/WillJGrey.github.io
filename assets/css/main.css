@@ -112,6 +112,24 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
+	.float-parent-element { 
+    width: 100%;
+	} 
+	.float-child-element { 
+    float: left; 
+    width: 100%;
+} 
+		.red { 
+    margin-left: 0%; 
+    height: 10%; 
+	text-align: left;
+	} 
+	.yellow { 
+    margin-left: 1%; 
+	padding top: 0%;
+	text-align: left;
+	}
+
 /* Type */
 
 	html {
