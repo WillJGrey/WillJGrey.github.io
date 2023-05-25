@@ -854,6 +854,7 @@ input, select, textarea {
 		body.fullscreen #main {
 			visibility: hidden;
 			right: -22.5em;
+			overflow: auto;
 		}
 
 		body.is-preload-1 #main {
@@ -869,6 +870,7 @@ input, select, textarea {
 
 				body.fullscreen #main {
 					right: -19em;
+					overflow: auto;
 				}
 
 		}
@@ -1403,10 +1405,6 @@ input, select, textarea {
 }
 
 @media (max-width: 768px) {
-
-  .embed-youtube {
-		overflow: scroll;
-	}
 
   .float-parent-element { 
     width: 100% !important;
