@@ -1405,4 +1405,16 @@ input, select, textarea {
   .float-parent-element { 
     width: 100%; !important
   }
+  .red {
+		justify-content: center;
+		text-align: center;
+  }
+
+  .yellow {
+		justify-content: center;
+		text-align: center; 
+  }
+  .p {
+		text-align: center; 
+  }
 }
