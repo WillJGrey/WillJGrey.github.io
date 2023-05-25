@@ -1415,7 +1415,10 @@ input, select, textarea {
 		text-align: center; 
   }
   .p {
-		justify-content: center;
-		text-align: center; 
+		justify-content: center; !important
+		text-align: center; !important
+		float: center; !important
+		padding: 0%; !important
+		margin: 0%; !important
   }
 }
