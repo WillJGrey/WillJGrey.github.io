@@ -112,7 +112,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background-color: #303030;
+		background-color: #101010;
 		overflow: auto;
 	}
 /* Type */
@@ -905,10 +905,6 @@ input, select, textarea {
 				body.fullscreen #main {
 					left: auto !important;
 					right: auto !important;
-
-			}
-
-		}
 					opacity: 0;
 				}
 
@@ -1254,10 +1250,8 @@ input, select, textarea {
 
 		body.fullscreen #viewer {
 			width: 100%;
-			image; height: 130%;
+			height: 130%;
 			}
-
-		}
 		}
 
 			body.fullscreen #viewer .inner .toggle {
@@ -1275,13 +1269,10 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#viewer {
-
 				width: calc(100% - 19em);
-				image; height: 130%;
 			}
 
 		}
-
 
 		@media screen and (max-width: 980px) {
 
